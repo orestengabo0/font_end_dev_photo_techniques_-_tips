@@ -1,4 +1,5 @@
 import home from "../../../assets/home.png";
+import {Link} from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -9,9 +10,9 @@ const Hero = () => {
           Discover tips, techniques, and tutorials to help you become a better
           photographer.
         </p>
-        <a href="#" className={`btn btn-primary`}>
+        <Link to={'/services'} className={`btn btn-primary`}>
           Explore Services
-        </a>
+        </Link>
       </div>
       <div className="ms-5 content-right"> 
         <img

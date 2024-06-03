@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Improve.module.css';
+import { Link } from "react-router-dom";
 
 const Improve = () => {
   return (
@@ -11,9 +12,9 @@ const Improve = () => {
         Our comprehensive resources and services can help you take your skills to the next level.
       </p>
       <div className="d-flex justify-content-center pb-5">
-        <a href="#" className={`btn button ${styles.button}`}>
+        <Link to={'/services'} className={`btn button ${styles.button}`}>
           Explore Services
-        </a>
+        </Link>
       </div>
     </div>
   );
