@@ -1,4 +1,5 @@
 import Hero from './Hero/Hero'
+import Improve from './Improve/Improve'
 import Tips from './Tips/Tips'
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
         <Hero />
         <Tips />
+        <Improve />
     </div>
   )
 }
