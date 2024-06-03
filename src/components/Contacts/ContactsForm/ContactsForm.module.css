@@ -1,0 +1,10 @@
+.card {
+    height: 100vh;
+    border: 0;
+    box-shadow: 2px 5px 10px #0000001a;
+}
+
+.btn {
+    width: 30%;
+    padding: 10px 20px;
+}
