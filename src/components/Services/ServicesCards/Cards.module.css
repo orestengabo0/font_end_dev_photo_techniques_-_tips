@@ -1,0 +1,12 @@
+.btn {
+    width: 40%;
+    padding: 10px 20px;
+}
+
+.card {
+    box-shadow: 0 5px 10px 2px #3204041b;
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
