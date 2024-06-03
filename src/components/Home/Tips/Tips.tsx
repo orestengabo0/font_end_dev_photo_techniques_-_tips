@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import camera from "../../assets/camera-settings.png";
-import composition from "../../assets/composition.png";
-import light from "../../assets/light.png";
+import camera from "../../../assets/camera-settings.png";
+import composition from "../../../assets/composition.png";
+import light from "../../../assets/light.png";
 
 const Tips = () => {
   return (

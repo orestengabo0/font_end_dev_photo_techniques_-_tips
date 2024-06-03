@@ -1,6 +1,6 @@
-import Hero from './Hero/Hero'
-import Improve from './Improve/Improve'
-import Tips from './Tips/Tips'
+import Hero from './Home/Hero/Hero'
+import Improve from './Home/Improve/Improve'
+import Tips from './Home/Tips/Tips'
 
 const Home = () => {
   return (

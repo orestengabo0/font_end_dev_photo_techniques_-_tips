@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Improve.module.css'
+import styles from './Improve.module.css';
 
 const Improve = () => {
   return (
@@ -7,12 +7,11 @@ const Improve = () => {
       <h2 className="pt-5 text-white text-center fw-bold">
         Ready to improve your photography?
       </h2>
-      <p className="text-white text-center fs-5 p-3 ">
-        Our comprehensive resources and services can help you take your skills
-        to the next level.
+      <p className="text-white text-center fs-5 p-3">
+        Our comprehensive resources and services can help you take your skills to the next level.
       </p>
       <div className="d-flex justify-content-center pb-5">
-        <a href="#" className={`btn button ${styles['button']}`}>
+        <a href="#" className={`btn button ${styles.button}`}>
           Explore Services
         </a>
       </div>
