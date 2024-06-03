@@ -7,7 +7,7 @@ import light from "../../../assets/light.png";
 const Tips = () => {
   return (
     <div>
-      <h2 className="text-center">Featured Photographic tips</h2>
+      <h2 className="text-center mt-5 mb-5">Featured Photographic tips</h2>
       <div className="cards d-flex">
         <Card
           image={light}
