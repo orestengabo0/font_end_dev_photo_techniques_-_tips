@@ -12,7 +12,7 @@ const Improve = () => {
         to the next level.
       </p>
       <div className="d-flex justify-content-center pb-5">
-        <a href="#" className={`btn ${styles.btnCustom}`}>
+        <a href="#" className={`btn button ${styles['button']}`}>
           Explore Services
         </a>
       </div>
